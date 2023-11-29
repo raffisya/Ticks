@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In | Ticks</title>
+    <link rel="stylesheet" href="/Styling/Main.css">
+</head>
+<body id="sign-page">
+    <section class="form-sec" id="section-sign-in">
+        <div class="form-div" id="form-sign-in">
+            <a class="foto" href="/Home/Main.html">
+                <img src="/Media-Files/logo-transp/logo_dark_mode.png" alt="">
+            </a>
+            <form class="register-form" method="post">
+                <div class="input-div-si">
+                    <input type="text" name="" id="username" placeholder="Username">
+                    <br>
+                </div>
+                <div class="input-div-si">
+                    <input type="password" name="" id="password" placeholder="Password">
+                    <br>
+                </div>
+                <span class="errormsg" id="error-msg"></span>
+                <br>
+                <div class="input-div-si">
+                    <button class="button-sub-si" type="submit" onclick="validateDataSignIn(event)" id="buttonsub-si">Sign In</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="/Sign In/signin.js"></script>
+
+</body>
+</html>

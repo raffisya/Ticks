@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Ticks</title>
+    <link rel="stylesheet" href="/Styling/Main.css">
+</head>
+<body id="reg-page">
+    <section class="form-sec">
+        <div class="form-div">
+            <a class="foto" href="/Home/Main.html">
+                <img src="/Media-Files/logo-transp/logo_dark_mode.png" alt="">
+            </a>
+            <form class="register-form" method="post">
+                <div class="input-div">
+                    <input type="text" name="" id="username" placeholder="Username">
+                    <br>
+                </div>
+                <div class="input-div">
+                    <input type="email" name="" id="email" placeholder="Email Address">
+                    <br>
+                </div>
+                <div class="input-div">
+                    <input type="password" name="" id="password" placeholder="Password">
+                    <br>
+                </div>
+                <div class="input-div">
+                    <input type="password" name="" id="confirm" placeholder="Confirm Password">
+                    <br>
+                </div>
+                <div class="input-div">
+                    <div>
+                        <label class="material-radio">
+                            <input type="radio" name="gender" id="maleBtn"> 
+                            <span>Male</span>
+                        </label>
+                        <label class="material-radio">
+                            <input type="radio" name="gender" id="femaleBtn"> 
+                            <span>Female</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="input-div">
+                    <label class="material-check">
+                        <input type="checkbox" name="" id="checkBox">
+                        <span class="checkmark"></span> 
+                        <h2 class="text-check">By clicking this, you are agreed to our Terms & Conditions</h2>
+                        <br>
+                    </label> 
+                </div>
+
+                <span class="errormsg" id="error-msg"></span>
+                <br>
+                <div class="input-div">
+                    <button class="button-sub" type="submit" onclick="validateData(event)" id="buttonsub">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="/Register/register.js"></script>
+
+</body>
+</html>
